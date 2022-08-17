@@ -212,6 +212,11 @@ header {
   border-radius: 6px;
 }
 
+.photo-404 img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .menu {
   list-style: none;
   margin: 0;
