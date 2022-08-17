@@ -9,15 +9,15 @@
   --h1-size: 30px;
   --h2-size: 22px;
   --h3-size: 18px;
-  --text-size: 17.4px;
+  --text-size: 18px;
   --code-size: 15px;
   --date-size: 15px;
   --footnote-size: 15px;
 
   --h1-size-mobile: 26px;
-  --h2-size-mobile: 20px;
+  --h2-size-mobile: 21px;
   --h3-size-mobile: 18px;
-  --text-size-mobile: 17px;
+  --text-size-mobile: 18px;
   --code-size-mobile: 16px;
   --date-size-mobile: 15px;
   --footnote-size-mobile: 15px;
@@ -26,9 +26,9 @@
 @media(prefers-color-scheme: dark) {
   :root {
     --text-color: #e2e2e2;
-    --background-color: #222222;
-    --link-color: #e2e2e2;
-    --gray-color: #596069;
+    --background-color: #212121;
+    --link-color: #cdcdcd;
+    --gray-color: #7e7e7e;
     --layer-color: #333333;
     --border-color: black;
   }
@@ -60,7 +60,7 @@ body {
   /*text-rendering: optimizeLegibility;*/
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1026px) {
   body {
     margin: 2% auto;
   }
@@ -226,10 +226,11 @@ header {
   list-style: none;
   margin: 0;
   margin-top: 10px;
+  font-size: 17px;
 }
 
 .menu li {
-  margin: 0 0 5px 0;
+  margin: 0 0 6px 0;
 }
 
 .menu-title {
@@ -244,7 +245,7 @@ header {
 
 sup {
   font-size: 10px;
-  vertical-align: 20%;
+  vertical-align: 13%;
   color: var(--gray-color);
 }
 
