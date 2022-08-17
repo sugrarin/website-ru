@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Книги
-excerpt: Описание
+excerpt: То, что запомнилось и стоит внимания.
 ---
 
 # Книги
 
 ## Список чтения
 
-- [Deep Work: Rules for Focused Success in a Distracted World. Cal Newport](https://books.google.ca/books?id=4QTzCAAAQBAJ&pg=PT37&lpg=PT37&dq=your+attention+doesn%27t+immediately+follow+–+a+residue+of+your+attention+remains+stuck+thinking+about+the+original+task%22&source=bl&ots=WMLDMx4a0J&sig=ti1zaZjRfqP7-4H-QsPCwvzovTQ&hl=en&sa=X&ved=2ahUKEwjrtN-l-pzeAhVrneAKHWa7CZ4Q6AEwAXoECAgQAQ#v=onepage&q=your%20attention%20doesn't%20immediately%20follow%20–%20a%20residue%20of%20your%20attention%20remains%20stuck%20thinking%20about%20the%20original%20task%22&f=false)
+- [Deep Work: Rules for Focused Success in a Distracted World](https://books.google.ca/books?id=4QTzCAAAQBAJ&pg=PT37&lpg=PT37&dq=your+attention+doesn%27t+immediately+follow+–+a+residue+of+your+attention+remains+stuck+thinking+about+the+original+task%22&source=bl&ots=WMLDMx4a0J&sig=ti1zaZjRfqP7-4H-QsPCwvzovTQ&hl=en&sa=X&ved=2ahUKEwjrtN-l-pzeAhVrneAKHWa7CZ4Q6AEwAXoECAgQAQ#v=onepage&q=your%20attention%20doesn't%20immediately%20follow%20–%20a%20residue%20of%20your%20attention%20remains%20stuck%20thinking%20about%20the%20original%20task%22&f=false). Cal Newport
 - [Getting Real](https://basecamp.com/books/getting-real). Basecamp
 - [Objectives and Key Results: Driving Focus, Alignment, and Engagement with OKRs](https://www.wiley.com/en-gb/Objectives+and+Key+Results%3A+Driving+Focus%2C+Alignment%2C+and+Engagement+with+OKRs-p-9781119252399). Paul R. Niven, Ben Lamorte
 - Сначала скажите «нет». Джим Кэмп
@@ -23,7 +23,7 @@ excerpt: Описание
 - Как написать. Максим Ильяхов
 - Слово живое и мёртвое. Нора Галь
 
-## 2021 и ранее
+### 2021 и ранее
 
 - Пользовательский интерфейс. Илья Бирман
 - Типографика и вёрстка. Артём Горбунов
