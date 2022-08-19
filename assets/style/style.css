@@ -97,6 +97,21 @@ p {
   font-weight: normal;
 }
 
+ul, ol {
+  font-size: var(--text-size);
+  line-height: 140%;
+  margin: 0 0 24px 20px;
+  max-width: 660px;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
+ul ul {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 414px) {
   body {
     margin: 5% 4%;
@@ -116,21 +131,10 @@ p {
   p {
     font-size: var(--text-size-mobile);
   }
-}
 
-ul, ol {
-  font-size: var(--text-size);
-  line-height: 140%;
-  margin: 0 0 24px 20px;
-  max-width: 660px;
-}
-
-ul li, ol li {
-  margin-bottom: 8px;
-}
-
-ul ul {
-  margin-bottom: 10px;
+  ul, ol {
+    font-size: var(--text-size-mobile);
+  }
 }
 
 img {
