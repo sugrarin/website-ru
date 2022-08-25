@@ -182,7 +182,7 @@ p code, ul code, ol code {
 }
 
 table {
-  font-size: var(--text-size);
+  font-size: var(--code-size-mobile);
   margin: 24px 0;
   max-width: 680px;
 }
@@ -191,6 +191,14 @@ table td {
   padding: 0 20px 8px 0;
   overflow: auto;
   vertical-align: baseline;
+}
+
+tr th {
+  padding-bottom: 8px;
+}
+
+tr {
+  text-align: left;
 }
 
 footer {
