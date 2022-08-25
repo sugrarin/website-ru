@@ -141,7 +141,10 @@ img {
   max-width: 100%;
   height: auto;
   margin: 6px 0 20px 0;
-  /*border: 0.5px solid var(--border-color);*/
+}
+
+.bordered {
+ border: 0.5px solid var(--border-color); 
 }
 
 a {
@@ -182,7 +185,7 @@ p code, ul code, ol code {
 }
 
 table {
-  font-size: var(--code-size-mobile);
+  font-size: var(--text-size-mobile);
   margin: 24px 0;
   max-width: 680px;
 }
@@ -200,6 +203,11 @@ tr th {
 tr {
   text-align: left;
 }
+
+@media screen and (max-width: 414px) {
+  table {
+    font-size: var(--code-size-mobile);
+  }
 
 footer {
   margin: 36px 0 0;
