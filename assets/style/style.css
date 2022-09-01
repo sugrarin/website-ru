@@ -2,9 +2,9 @@
   --text-color: #000000;
   --background-color: #FBFBFB;
   --link-color: #6B4F38;
-  --gray-color: #596069;
+  --gray-color: #595959;
   --layer-color: #F1F1F1;
-  --border-color: gray;
+  --border-color: #595959;
 
   --h1-size: 30px;
   --h2-size: 22px;
@@ -28,7 +28,7 @@
     --text-color: #e2e2e2;
     --background-color: #212121;
     --link-color: #cdcdcd;
-    --gray-color: #7e7e7e;
+    --gray-color: #c0c0c0;
     --layer-color: #333333;
     --border-color: black;
   }
@@ -51,8 +51,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: ui-rounded, system-ui-rounded, SF Pro Rounded, SF-Pro-Rounded, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  margin: 2% 3.6%;
-  max-width: 942px;
+  margin: 2% auto;
+  max-width: 680px;
   color: var(--text-color);
   background-color: var(--background-color);
   /*-webkit-font-smoothing: antialiased;
@@ -60,9 +60,9 @@ body {
   /*text-rendering: optimizeLegibility;*/
 }
 
-@media screen and (min-width: 1026px) {
+@media screen and (max-width: 728px) {
   body {
-    margin: 2% auto;
+    margin: 2% 3.6%;
   }
 }
 
@@ -100,7 +100,7 @@ p {
 ul, ol {
   font-size: var(--text-size);
   line-height: 140%;
-  margin: 0 0 24px 20px;
+  margin: 0 0 24px 21px;
   max-width: 660px;
 }
 
@@ -155,7 +155,7 @@ a:hover {
 .date {
   color: var(--gray-color);
   font-size: var(--date-size);
-  /*margin-top: -8px;*/
+  margin-top: -8px;
 }
 
 pre {
@@ -194,7 +194,7 @@ table td {
 }
 
 tr th {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
 tr {
