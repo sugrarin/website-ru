@@ -51,8 +51,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: ui-rounded, system-ui-rounded, SF Pro Rounded, SF-Pro-Rounded, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  margin: 2% 4%;
-  max-width: 680px;
+  margin: 2% 3.4%;
+  max-width: 720px;
   color: var(--text-color);
   background-color: var(--background-color);
   /*-webkit-font-smoothing: antialiased;
