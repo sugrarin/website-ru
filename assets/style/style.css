@@ -204,7 +204,13 @@ tr {
 blockquote {
   margin: 20px;
   color: var(--gray-color);
-  max-width: 660px;
+  max-width: 640px;
+}
+
+blockquote p:before {
+  content: ">";
+  float: left;
+  margin-left: -20px;
 }
 
 @media screen and (max-width: 414px) {
