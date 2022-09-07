@@ -8,9 +8,12 @@ excerpt: То, что запомнилось и стоит внимания.
 
 ## Фильмы
 
-- Всё, везде и сразу (2022) ★
+- [Всё везде и сразу](https://www.imdb.com/title/tt6710474/) (2022) ★
+- [Тик-так... БУМ!](https://www.imdb.com/title/tt8721424/)
 
 ## Сериалы
 
-- Барри (2018–...) ★
-- [Сопрано](https://www.kinopoisk.ru/series/79848/) (1997–2007) ★
+- [Лучше звоните Солу](https://www.imdb.com/title/tt3032476/) ★
+- [Барри](https://www.imdb.com/title/tt5348176/) (2018–...) ★
+- [Во все тяжкие](https://www.imdb.com/title/tt0903747/) ★
+- [Сопрано](https://www.imdb.com/title/tt0141842/) (1997–2007) ★
