@@ -29,9 +29,9 @@
   :root {
     --text-color: #e2e2e2;
     --background-color: #212121;
-    --link-color: #cdcdcd;
-    --link-color-hover: #e2e2e2;
-    --link-color-visited: #e2e2e2;
+    --link-color: #e2e2e2;
+    --link-color-hover: #cdcdcd;
+    --link-color-visited: #cdcdcd;
     --gray-color: #c0c0c0;
     --layer-color: #333333;
     --border-color: black;
@@ -275,14 +275,16 @@ header {
   margin: 0 0 6px 0;
 }
 
+.menu a {
+  color: var(--text-color);
+}
+
 .menu-title {
   font-weight: bold;
-  color: var(--text-color);
 }
 
 .menu-link {
   font-weight: normal;
-  color: var(--text-color);
 }
 
 sup {
