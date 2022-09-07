@@ -1,7 +1,9 @@
 :root {
   --text-color: #000000;
-  --background-color: #FBFBFB;
-  --link-color: #6B4F38;
+  --background-color: #ffffff;
+  --link-color: #3670B3;
+  --link-color-hover: #0E3174;
+  --link-color-visited: #47318D;
   --gray-color: #595959;
   --layer-color: #F1F1F1;
   --border-color: #595959;
@@ -28,6 +30,8 @@
     --text-color: #e2e2e2;
     --background-color: #212121;
     --link-color: #cdcdcd;
+    --link-color-hover: #e2e2e2;
+    --link-color-visited: #e2e2e2;
     --gray-color: #c0c0c0;
     --layer-color: #333333;
     --border-color: black;
@@ -50,12 +54,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-  font-family: ui-rounded, system-ui-rounded, SF Pro Rounded, SF-Pro-Rounded, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: ui-rounded, system-ui-rounded, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Roboto, Geneva, Ubuntu, Arial, sans-serif;
   margin: 2% 3.4%;
-  max-width: 720px;
+  max-width: 760px;
   color: var(--text-color);
   background-color: var(--background-color);
-  /*-webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
   /*text-rendering: optimizeLegibility;*/
 }
@@ -148,8 +152,12 @@ a {
   color: var(--link-color);
 }
 
+a:visited {
+  color: var(--link-color-visited);
+}
+
 a:hover {
-  opacity: 0.7;
+  color: var(--link-color-hover);
 }
 
 .date {
