@@ -54,7 +54,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-  font-family: ui-rounded, system-ui-rounded, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Roboto, Geneva, Ubuntu, Arial, sans-serif;
+  font-family: ui-rounded, system-ui-rounded, -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, 'Roboto', Geneva, Ubuntu, Arial, sans-serif;
   margin: 2% 3.4%;
   max-width: 760px;
   color: var(--text-color);
@@ -242,12 +242,16 @@ header {
 }
 
 .header-home {
-  margin: 0 0 16px;
+  margin: 0 0 24px;
 }
 
 .photo {
   margin: 0 20px 0 0;
   line-height: 0;
+}
+
+.photo img {
+  margin: 0;
 }
 
 .photo-404 {
@@ -267,7 +271,7 @@ header {
 .menu {
   list-style: none;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 6px;
   font-size: 17px;
 }
 
