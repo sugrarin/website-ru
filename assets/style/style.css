@@ -256,11 +256,13 @@ header {
 .photo-404 {
   margin: 0 20px 0 0;
   line-height: 0;
+  flex: none;
 }
 
 .photo-404 img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  margin: 0;
 }
 
 .menu-photo {
