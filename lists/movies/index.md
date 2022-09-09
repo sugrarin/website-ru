@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Фильмы и сериалы
 excerpt: То, что запомнилось и стоит внимания.
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: lists
 title: Списки Тимура Суграрина
 excerpt: Списки книг, фильмов, сериалов и дел.
 ---

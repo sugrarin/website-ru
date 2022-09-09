@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Книги
 excerpt: То, что запомнилось и стоит внимания.
 ---
