@@ -72,14 +72,14 @@ body {
 
 h1 {
   font-size: var(--h1-size);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   line-height: 120%;
   max-width: 720px;
 }
 
 h2 {
   font-size: var(--h2-size);
-  margin: 30px 0 12px;
+  margin: 28px 0 10px;
   line-height: 120%;
   max-width: 720px;
 }
@@ -230,7 +230,7 @@ blockquote p:before {
 }
 
 footer {
-  margin: 36px 0 0;
+  margin: 34px 0;
 }
 
 footer p {
@@ -239,17 +239,14 @@ footer p {
 }
 
 header {
-  margin: 0 0 28px;
+  margin: 0 0 34px;
   display: flex;
-}
-
-.header-home {
-  margin: 0 0 24px;
 }
 
 .photo {
   margin: 0 20px 0 0;
   line-height: 0;
+  flex: none;
 }
 
 .photo img {
@@ -284,11 +281,15 @@ nav {
 }
 
 .menu li {
-  margin: 0 16px 8px 0;
+  margin: 0 15px 7px 0;
 }
 
 .menu a {
   color: var(--text);
+}
+
+.menu a:hover {
+  opacity: 0.8;
 }
 
 .menu-link-title {
@@ -313,5 +314,5 @@ sup {
 
 .inside {
   text-decoration: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: dotted;
 }
