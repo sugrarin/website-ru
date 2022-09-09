@@ -11,14 +11,14 @@
 		<link rel="apple-touch-icon-precomposed" href="/assets/icons/favicon.png">
   </head>
   <header>
-  	{% include header-default.html %}
- 	</header>
+  	{% include header-notes-inside.html %}
+	</header>
 
   <body>
     {{ content }}
   </body>
 
   <footer>
-  	{% include footer.html %}
+  	{{ page.post_date }}
   </footer>
 </html>

@@ -11,25 +11,7 @@
 		<link rel="apple-touch-icon-precomposed" href="/assets/icons/favicon.png">
   </head>
   <header>
-	  <div class="photo">
-		  <img class="menu-photo" src="/images/me@2x.jpg" alt="Тимур Суграрин" width="100" height="126">
-	  </div>
-    <nav>
-		  <ul class="menu">
-			  <li>
-				  <a class="menu-title" href="/">Тимур Суграрин</a>
-			  </li>
-			  <li>
-				  <a class="menu-link active">Веблог</a>
-			  </li>
-			  <li>
-				  <a class="menu-link" href="https://twitter.com/sugrarin" target="_blank">Твитер</a><sup>↗</sup>
-			  </li>
-			  <li>
-				  <a class="menu-link" href="https://t.me/timlead" target="_blank">Канал</a><sup>↗</sup>
-			  </li>
-		  </ul>
-	  </nav>
+  	{% include header-weblog.html %}
   </header>
 
   <body>
@@ -37,6 +19,6 @@
   </body>
 
   <footer>
-  	<p>Тимур Суграрин, 1996–н.в.</p>
+  	{% include footer.html %}
   </footer>
 </html>
