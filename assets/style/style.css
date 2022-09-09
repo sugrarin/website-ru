@@ -1,12 +1,12 @@
 :root {
-  --text-color: #000000;
-  --background-color: #ffffff;
-  --link-color: #3670B3;
-  --link-color-hover: #0E3174;
-  --link-color-visited: #47318D;
-  --gray-color: #595959;
-  --layer-color: #F1F1F1;
-  --border-color: #595959;
+  --text: #000000;
+  --background: #ffffff;
+  --links: #3670B3;
+  --hovered-links: #0E3174;
+  --visited-links: #47318D;
+  --gray: #595959;
+  --layer: #F1F1F1;
+  --border: #595959;
 
   --h1-size: 30px;
   --h2-size: 22px;
@@ -27,14 +27,14 @@
 
 @media(prefers-color-scheme: dark) {
   :root {
-    --text-color: #e2e2e2;
-    --background-color: #212121;
-    --link-color: #e2e2e2;
-    --link-color-hover: #cdcdcd;
-    --link-color-visited: #cdcdcd;
-    --gray-color: #c0c0c0;
-    --layer-color: #333333;
-    --border-color: black;
+    --text: #e2e2e2;
+    --background: #212121;
+    --links: #e2e2e2;
+    --hovered-links: #cdcdcd;
+    --visited-links: #cdcdcd;
+    --gray: #c0c0c0;
+    --layer: #333333;
+    --border: black;
   }
 }
 
@@ -57,8 +57,8 @@ body {
   font-family: ui-rounded, system-ui-rounded, -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, 'Roboto', Geneva, Ubuntu, Arial, sans-serif;
   margin: 2% 3.4%;
   max-width: 760px;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  color: var(--text);
+  background-color: var(--background);
   /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
   /*text-rendering: optimizeLegibility;*/
@@ -149,25 +149,27 @@ img {
 }
 
 a {
-  color: var(--link-color);
+  color: var(--links);
+  /*text-decoration: none;*/
+  /*border-bottom: 1px solid var(--link-color);*/
 }
 
 a:visited {
-  color: var(--link-color-visited);
+  color: var(--visited-links);
 }
 
 a:hover {
-  color: var(--link-color-hover);
+  color: var(--hovered-links);
 }
 
-.date {
-  color: var(--gray-color);
+/*.date {
+  color: var(--gray);
   font-size: var(--date-size);
   margin-top: -8px;
-}
+}*/
 
 pre {
-  background-color: var(--layer-color);
+  background-color: var(--layer);
   padding: 0 10px;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -182,7 +184,7 @@ code {
 }
 
 p code, ul code, ol code {
-  background-color: var(--layer-color);
+  background-color: var(--layer);
   margin: 0;
   padding: 3px 5px;
   font-size: var(--code-size);
@@ -211,7 +213,7 @@ tr {
 
 blockquote {
   margin: 20px;
-  color: var(--gray-color);
+  color: var(--gray);
   max-width: 640px;
 }
 
@@ -232,7 +234,7 @@ footer {
 }
 
 footer p {
-  color: var(--gray-color);
+  color: var(--gray);
   font-size: var(--footnote-size);
 }
 
@@ -268,7 +270,13 @@ header {
   border-radius: 6px;
 }
 
+nav {
+  max-width: 500px;
+}
+
 .menu {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   margin-top: 6px;
@@ -276,14 +284,14 @@ header {
 }
 
 .menu li {
-  margin: 0 0 6px 0;
+  margin: 0 16px 8px 0;
 }
 
 .menu a {
-  color: var(--text-color);
+  color: var(--text);
 }
 
-.menu-title {
+.menu-link-title {
   font-weight: bold;
 }
 
@@ -293,12 +301,17 @@ header {
 
 sup {
   font-size: 10px;
-  vertical-align: 13%;
-  color: var(--gray-color);
+  vertical-align: 9%;
+  color: var(--gray);
 }
 
-.active {
-  color: var(--text-color);
+.current {
+  color: var(--text);
   text-decoration: none;
-  cursor: default;
+  cursor: text;
+}
+
+.inside {
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
