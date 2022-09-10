@@ -1,9 +1,15 @@
 :root {
   --text: #000000;
   --background: #ffffff;
+
   --links: #3670B3;
-  --hovered-links: #0E3174;
   --visited-links: #47318D;
+  --hovered-links: #0E3174;
+  --links-underline: #B4C6DF;
+  --visited-links-underline: #C8C1DD;
+  --hovered-links-underline: #0E3174;
+  --menu-links-underline: #d7d7d7;
+
   --gray: #595959;
   --layer: #F1F1F1;
   --border: #595959;
@@ -29,9 +35,19 @@
   :root {
     --text: #e2e2e2;
     --background: #212121;
+
     --links: #e2e2e2;
     --hovered-links: #cdcdcd;
     --visited-links: #cdcdcd;
+
+    --links: #e2e2e2;
+    --visited-links: #cdcdcd;
+    --hovered-links: #e2e2e2;
+    --links-underline: #656565;
+    --visited-links-underline: #5B5B5B;
+    --hovered-links-underline: #e2e2e2;
+    --menu-links-underline: #5B5B5B;
+
     --gray: #c0c0c0;
     --layer: #333333;
     --border: black;
@@ -103,7 +119,7 @@ p {
 
 ul, ol {
   font-size: var(--text-size);
-  line-height: 140%;
+  line-height: 146%;
   margin: 0 0 24px 21px;
   max-width: 660px;
 }
@@ -156,10 +172,12 @@ a {
 
 a:visited {
   color: var(--visited-links);
+  border-bottom-color: var(--visited-links-underline);
 }
 
 a:hover {
   color: var(--hovered-links);
+  border-bottom-color: var(--hovered-links-underline);
 }
 
 /*.date {
@@ -288,10 +306,12 @@ nav {
 
 .menu a {
   color: var(--text);
+  border-bottom: 1.6px solid var(--menu-links-underline);
 }
 
 .menu a:hover {
-  opacity: 0.8;
+  /*opacity: 0.7;*/
+  border-bottom-color: var(--text);
 }
 
 .menu-link-title {
@@ -304,17 +324,22 @@ nav {
 
 sup {
   font-size: 10px;
-  vertical-align: 9%;
+  vertical-align: 8%;
   color: var(--gray);
 }
 
-.current {
+ul .current {
   color: var(--text);
   text-decoration: none;
   cursor: text;
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1.6px solid var(--links-underline);
 }
 
 .inside {
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  font-weight: bold;
 }
