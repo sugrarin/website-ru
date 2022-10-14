@@ -3,10 +3,8 @@
   --background: #ffffff;
 
   --links: #3670B3;
-  --visited-links: #47318D;
   --hovered-links: #0E3174;
   --links-underline: #B4C6DF;
-  --visited-links-underline: #C8C1DD;
   --hovered-links-underline: #0E3174;
   --menu-links-underline: #d7d7d7;
 
@@ -14,10 +12,10 @@
   --layer: #F1F1F1;
   --border: #595959;
 
-  --h1-size: 30px;
-  --h2-size: 22px;
+  --h1-size: 28px;
+  --h2-size: 20px;
   --h3-size: 18px;
-  --text-size: 18px;
+  --text-size: 17.4px;
   --code-size: 15px;
   --date-size: 15px;
   --footnote-size: 15px;
@@ -35,16 +33,9 @@
   :root {
     --text: #e2e2e2;
     --background: #212121;
-
     --links: #e2e2e2;
-    --hovered-links: #cdcdcd;
-    --visited-links: #cdcdcd;
-
-    --links: #e2e2e2;
-    --visited-links: #cdcdcd;
     --hovered-links: #e2e2e2;
     --links-underline: #656565;
-    --visited-links-underline: #5B5B5B;
     --hovered-links-underline: #e2e2e2;
     --menu-links-underline: #5B5B5B;
 
@@ -70,9 +61,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-  font-family: ui-rounded, system-ui-rounded, -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, 'Roboto', Geneva, Ubuntu, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Roboto, 'Roboto', Ubuntu, Arial, sans-serif;
   margin: 2% 3.4%;
-  max-width: 760px;
+  max-width: 954px;
   color: var(--text);
   background-color: var(--background);
   /*-webkit-font-smoothing: antialiased;*/
@@ -90,14 +81,14 @@ h1 {
   font-size: var(--h1-size);
   margin-bottom: 10px;
   line-height: 120%;
-  max-width: 720px;
+  max-width: 700px;
 }
 
 h2 {
   font-size: var(--h2-size);
-  margin: 28px 0 10px;
+  margin: 28px 0 8px;
   line-height: 120%;
-  max-width: 720px;
+  max-width: 700px;
 }
 
 
@@ -105,7 +96,7 @@ h3 {
   font-size: var(--h3-size);
   margin: 26px 0 8px;
   line-height: 120%;
-  max-width: 720px;
+  max-width: 700px;
 }
 
 p {
@@ -120,12 +111,12 @@ p {
 ul, ol {
   font-size: var(--text-size);
   line-height: 146%;
-  margin: 0 0 24px 21px;
+  margin: 0 0 24px 20px;
   max-width: 660px;
 }
 
 ul li, ol li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 ul ul {
@@ -166,13 +157,8 @@ img {
 
 a {
   color: var(--links);
-  /*text-decoration: none;*/
-  /*border-bottom: 1px solid var(--link-color);*/
-}
-
-a:visited {
-  color: var(--visited-links);
-  border-bottom-color: var(--visited-links-underline);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--links-underline);
 }
 
 a:hover {
@@ -333,11 +319,6 @@ ul .current {
   text-decoration: none;
   cursor: text;
   border-bottom: none;
-}
-
-a {
-  text-decoration: none;
-  border-bottom: 1.6px solid var(--links-underline);
 }
 
 .inside {
